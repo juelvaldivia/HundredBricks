@@ -1,0 +1,68 @@
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+}
+
+/* Creado por Alexo Ruiz, 5 Noviembre 2019... */
+.sidenav---sidenav---_2tBP, .sidenav---sidenav-subnav---1EN61 {
+    background-color: $black!important;
+    border: 0px!important;
+}
+.sidenav---sidenav---_2tBP {
+  position: fixed!important;
+}
+.sidenav---sidenav---_2tBP {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.sidenav---sidenav---_2tBP::-webkit-scrollbar {
+    display: none;
+}
+.sidenav---sidenav-subnav---1EN61:hover, .sidenav---sidenav---_2tBP:hover
+{
+    box-shadow: 1px 2px 10px 1px $black;
+}
+/* cuando una sección está activa en la página */
+.sidenav---selected---1EK3y.sidenav---highlighted---oUx9u {
+    border-left: 3px solid $green;
+    font-weight: bold;
+    color: $white;
+    background-color: '#0f0f0f';
+}
+.sidenav---navtext---1AE_f, .sidenav---navicon---3gCRo {
+    color: $white !important;
+}
+
+.sidenav---navicon---3gCRo {
+  font-size: 20px;
+}
+.sidenav---navtext---1AE_f{
+  margin-left: 1em;
+  padding: .7em 0;
+  line-height: 1.5;
+}
+.sidenav---navicon---3gCRo {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.sidenav---navitem---9uL5T:hover, .sidenav---sidenav-subnav---1EN61 > .sidenav---sidenav-subnavitem---1cD47 > .sidenav---navitem---9uL5T:hover {
+    background-color: $green!important;
+}
+.sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > * {
+    color: $white !important;
+}
+.sidenav---sidenav-subnavitem---1cD47 {
+    color: $white;
+}
+.sidenav---navtext---1AE_f > a {
+color: $white;
+}
+.sidenav---sidenav-subnavitem---1cD47 {
+  font-size: 18px;
+}

@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+}
+.form-control {
+    height: calc(1.6em + 1.5rem + 2px);
+}
+
+.form-group > button {
+    width: 100%;
+}
+
+.label-bold {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.main {
+    padding: 2em 3em;
+    color: $textColor;
+    margin-left: 64px;
+}
+
+.main .titulo-vista {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding: 2em 1em;
+    }
+    .main h1 {
+        font-size: 24px;
+    }
+}

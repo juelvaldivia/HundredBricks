@@ -1,0 +1,61 @@
+.navbar {
+    padding: 1em 1em 1em 5em;
+}
+.navbar-nav {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navegacion {
+    background-color: #474747;
+}
+
+img.logo-white {
+    width: 50px;
+}
+.username-ss {
+    /* Mostramos el nombre de usuario en el menú desplegable*/
+    display: none;
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: bold;
+    cursor: auto;
+}
+.username-ss:hover {
+    background-color: transparent !important;
+}
+// .navbar-light .navbar-nav .nav-link.show,
+// .navbar-light .navbar-nav .show > .nav-link,
+// .navbar-light .navbar-nav .nav-link:focus,
+// .navbar-light .navbar-nav .nav-link:hover {
+//     color: $orange;
+// }
+// .dropdown-item:hover {
+//     color: #fff;
+//     background-color: $orange;
+// }
+// .dropdown-menu {
+//     left: -120px !important;
+// }
+// .dropdown-profile {
+//     min-width: 50px;
+// }
+/* NAVEGACION EN LOGIN VIEW */
+.public-nav {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 992px) {
+    .public-nav {
+        padding: 0.2em;
+    }
+    .private-nav {
+        padding: 0.2em 3em 0em 5em;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .public-nav {
+        padding: 0.2em;
+    }
+    .private-nav {
+        padding: 0.2em 0.3em 0em 5em;
+    }
+}

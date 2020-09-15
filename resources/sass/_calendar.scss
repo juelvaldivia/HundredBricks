@@ -1,0 +1,20 @@
+.rlc-calendar {
+    width: 300px !important;
+}
+// color del día de hoy
+.rlc-day-today {
+    color: $white;
+    background-color: $textColor;
+    border-radius: 50%;
+}
+
+// color verde en dia seleccionado
+.rlc-day-end-selection, .rlc-day-inside-selection, .rlc-day-selected, .rlc-day-start-selection {
+    color: $white;
+    background-color: $green;
+}
+
+// color verde en Hover de día seleccionado
+.rlc-day-end-selection:hover, .rlc-day-inside-selection:hover, .rlc-day-selected:hover, .rlc-day-start-selection:hover {
+    background-color: $green_background;
+}
